@@ -22,7 +22,7 @@ CREATE VIEW VI (
     id INTEGER NOT NULL,
     sklad  VARCHAR(30),
     adres VARCHAR(50))
-SELECT CAST(adres) FROM SCLAD WHERE (ID=1) GROUP_BY adres 
+SELECT CAST(adres) FROM SCLAD WHERE (ID=1) GROUP BY adres 
                                            -- группирует по адресам
 
 
