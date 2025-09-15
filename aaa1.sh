@@ -11,7 +11,19 @@
 ###  1 
 function a() {
 echo " "
-isql-fb create database './test.fdb' USER 'SYSDBA' PASSWORD 'masterkey' page_size 8192 DEFAULT CHARACTER SET UTF8;
+#read filename
+
+isql-fb -input 1.sql
+#$filename
+
+
+
+#isql-fb CREATE DATABASE './1.fdb' \
+#USER 'SYSDBA' PASSWORD 'masterkey' \
+#PAGE_SIZE 16384 \
+#DEFAULT CHARACTER SET UNICODE_FSS;
+
+
 
 }
 
